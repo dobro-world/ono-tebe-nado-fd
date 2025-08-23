@@ -26,18 +26,22 @@
 .header-logo {
   display: block;
   min-width: 135px;
+  justify-self: center;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  font-style: normal;
+  font-size: 18px;
+  gap: 5px;
 }
 
 .header-address {
-  display: flex;
-  flex-direction: column;
   justify-self: end;
-  align-items: start;
-  font-size: 18px;
-  font-style: normal;
-  margin: -10px 29px 0 0;
-  line-height: 1.4;
+  text-align: left;
 }
+
 
 .text-underline {
   text-decoration: underline;
@@ -103,6 +107,7 @@
 
 .bet-button {
   background-color: transparent;
+  cursor: pointer;
   border: 1px solid #fff;
   color: #fff;
   padding: 12px 32px 11px 31px;
@@ -232,6 +237,7 @@
 .about-text {
   font-size: 20px;
   margin-left: 55px;
+  margin-bottom: 24px;
 }
 
 .about-text-first {
@@ -245,13 +251,8 @@
 }
 
 .footer-address {
-  display: flex;
-  flex-direction: column;
-  margin-left: 32px;
-  max-width: 240px;
-  font-size: 18px;
-  font-style: normal;
-  line-height: 1.35;
+  justify-self: start;
+  text-align: left;
 }
 
 .footer-menu-list {
