@@ -2,19 +2,21 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 90px 50px;
+  padding: 92px 50px 96px;
 }
 
 .header-menu-list {
   display: flex;
-  gap: 30px;
+  align-items: center;
+  gap: 32px;
   list-style-type: circle;
+  font-size: 18px;
 }
 
 .header-menu-link {
   color: #000000;
-  font-size: 18px;
   line-height: 100%;
+  margin-left: 6px;
   text-transform: lowercase;
   text-underline-offset: 0.24em;
 }
@@ -25,21 +27,26 @@
 
 .header-logo {
   display: block;
-  min-width: 135px;
-  justify-self: center;
+  align-content: start;
+  margin-left: 13px;
+  width: 137px;
+  height: 105px;
 }
 
 .address {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   font-style: normal;
   font-size: 18px;
   gap: 5px;
 }
 
 .header-address {
+  display: flex;
+  align-self: center;
   justify-self: end;
-  text-align: left;
+  margin-right: 30px;
 }
 
 
@@ -51,17 +58,15 @@
 .cover {
   position: relative;
   min-height: 757px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   background-image: url(../images/cover.jpg);
   background-position: center;
   background-size: cover;
+  margin-left: 5px;
 }
 
 .overlay {
   position: absolute;
-  background-color: #000;
+  background-color: #000000;
   opacity: 0.6;
   inset: 0;
 }
@@ -70,11 +75,10 @@
   position: relative;
   z-index: 1;
   color: #fff;
-  padding: 165px 50px 106px;
-  line-height: 1.15;
-  letter-spacing: 0.3em;
   text-transform: uppercase;
+  padding: 165px 50px 106px;
   font-size: 100px;
+  letter-spacing: 0.3em;
 }
 
 .aligned-text {
@@ -83,14 +87,18 @@
 
 .text-center {
   text-align: center;
+  margin-top: 15px;
+  margin-left: 35px;
 }
 
 .text-right {
   text-align: right;
-  margin-right: -0.1em;
+  margin-top: 20px;
+  margin-right: -0.35em;
 }
 
 .cover-description {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -102,7 +110,7 @@
 
 .cover-description-text {
   text-transform: uppercase;
-  word-spacing: 20px;
+  word-spacing: 19px;
 }
 
 .bet-button {
@@ -112,17 +120,18 @@
   color: #fff;
   padding: 12px 32px 11px 31px;
   text-transform: uppercase;
+  margin-right: -8px;
 }
 
 .lots {
-  margin: 170px 0 120px 30px;
+  margin: 178px 0 120px 30px;
 }
 
 .lots-heading {
   font-size: 40px;
   text-transform: uppercase;
   margin-left: 41px;
-  margin-bottom: 27px;
+  margin-bottom: 20px;
 }
 
 .lots-card-list {
@@ -194,12 +203,14 @@
   margin: 30px 0 0 40px;
   font-size: 20px;
   color: #000;
+  text-underline-offset: 0.2em;
+  text-decoration-thickness: 1px;
 }
 
 .about-column {
   display: grid;
   grid-template-columns: 334px auto;
-  margin-bottom: 180px;
+  margin-bottom: 157px;
 }
 
 .about-logo {
@@ -238,21 +249,20 @@
   font-size: 20px;
   margin-left: 55px;
   margin-bottom: 24px;
-}
-
-.about-text-first {
-  margin-bottom: 24px;
+  word-break: break-word;
+  padding-right: 25px;
 }
 
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 25px;
+  padding: 0 50px 82px;
 }
 
 .footer-address {
-  justify-self: start;
   text-align: left;
+  margin-left: 6px;
+  gap: 3px;
 }
 
 .footer-menu-list {
@@ -262,7 +272,6 @@
   margin-left: 25px;
   align-items: center;
   list-style: none;
-  line-height: 1.2;
 }
 
 .footer-menu-link_active {
@@ -271,10 +280,11 @@
 
 .footer-social-list {
   display: flex;
-  justify-content: end;
-  margin-right: 15px;
-  gap: 50px;
+  justify-self: flex-end;
+  align-items: flex-start;
+  gap: 48px;
   list-style: none;
+  margin-right: -0.5em;
 }
 
 .footer-social-icon {
