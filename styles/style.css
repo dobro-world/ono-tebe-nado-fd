@@ -8,7 +8,7 @@
 .header-menu-list {
   display: flex;
   align-items: center;
-  gap: 32px;
+  gap: 27px;
   list-style-type: circle;
   font-size: 18px;
 }
@@ -16,7 +16,7 @@
 .header-menu-link {
   color: #000000;
   line-height: 100%;
-  margin-left: 6px;
+  margin-left: 3px;
   text-transform: lowercase;
   text-underline-offset: 0.24em;
 }
@@ -28,7 +28,7 @@
 .header-logo {
   display: block;
   align-content: start;
-  margin-left: 13px;
+  margin-left: 6px;
   width: 137px;
   height: 105px;
 }
@@ -39,14 +39,14 @@
   align-items: flex-start;
   font-style: normal;
   font-size: 18px;
-  gap: 5px;
+  gap: 4px;
 }
 
 .header-address {
   display: flex;
   align-self: center;
   justify-self: end;
-  margin-right: 30px;
+  margin-right: 35px;
 }
 
 
@@ -61,7 +61,6 @@
   background-image: url(../images/cover.jpg);
   background-position: center;
   background-size: cover;
-  margin-left: 5px;
 }
 
 .overlay {
@@ -87,14 +86,14 @@
 
 .text-center {
   text-align: center;
-  margin-top: 15px;
-  margin-left: 35px;
+  margin-top: 16px;
+  margin-left: 34px;
 }
 
 .text-right {
   text-align: right;
   margin-top: 20px;
-  margin-right: -0.35em;
+  margin-right: -0.32em;
 }
 
 .cover-description {
@@ -120,11 +119,10 @@
   color: #fff;
   padding: 12px 32px 11px 31px;
   text-transform: uppercase;
-  margin-right: -8px;
 }
 
 .lots {
-  margin: 178px 0 120px 30px;
+  margin: 178px 0 120px 24px;
 }
 
 .lots-heading {
@@ -222,7 +220,7 @@
   height: 240px;
   background-color: #000;
   border-radius: 50%;
-  margin-right: 15px;
+  margin-right: 23px;
   margin-top: 35px;
 }
 
@@ -241,13 +239,13 @@
   font-size: 40px;
   text-transform: uppercase;
   margin-bottom: 100px;
-  margin-left: 55px;
-  margin-top: 35px;
+  margin-left: 50px;
+  margin-top: 33px;
 }
 
 .about-text {
   font-size: 20px;
-  margin-left: 55px;
+  margin-left: 50px;
   margin-bottom: 24px;
   word-break: break-word;
   padding-right: 25px;
@@ -261,17 +259,17 @@
 
 .footer-address {
   text-align: left;
-  margin-left: 6px;
-  gap: 3px;
+  margin-left: 2px;
+  gap: 5px;
 }
 
 .footer-menu-list {
   display: flex;
   font-size: 18px;
   flex-direction: column;
-  margin-left: 25px;
   align-items: center;
   list-style: none;
+  text-underline-offset: 0.2em;
 }
 
 .footer-menu-link_active {
@@ -284,7 +282,6 @@
   align-items: flex-start;
   gap: 48px;
   list-style: none;
-  margin-right: -0.5em;
 }
 
 .footer-social-icon {
